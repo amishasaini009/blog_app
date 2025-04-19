@@ -11,7 +11,7 @@ class GeminiService {
 
   Future<String> isArtPromptAPI(String prompt) async {
     try {
-      // Basic keyword-based check (Gemini doesn't have image generation output yet)
+      
       final isImagePrompt = RegExp(r'\b(image|art|picture|draw|paint|photo|generate)\b', caseSensitive: false)
           .hasMatch(prompt);
 
