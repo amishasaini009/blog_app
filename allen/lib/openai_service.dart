@@ -1,4 +1,4 @@
-import 'package:allen/secrets.dart';
+//import 'package:allen/secrets.dart';
 import 'package:google_generative_ai/google_generative_ai.dart';
 
 class GeminiService {
